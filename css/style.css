@@ -270,5 +270,47 @@ body{
     font-size: .8rem;
     position: relative;
     left: 78%;
-    top: 5%;
+    top: 6%;
 }
+
+
+/* BIG 1945 NUMBER BELOW */
+
+.big-bottom-number{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 35rem;
+    text-transform: uppercase;
+}
+
+
+.big-bottom-number-subtitle{
+    text-transform: uppercase;
+    font-family: 'Sora', sans-serif;
+    font-size: 2.9rem;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+
+
+
+/* CLIENT LOGO */
+
+#client-logo-box{
+    padding: 2% 7% 10%;
+    opacity: .4;
+}
+
+.logo-box{
+    padding: 2% 0% 6%;
+}
+
+
+/* CTA SECTION */
+
+.cta-footer-brown-box{
+    background-color: #A66539;
+    padding: 1% 5%;
+}
+
