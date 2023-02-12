@@ -169,6 +169,7 @@ body{
 
 .header-image-subtitle-r{
     padding-top: 1.5%;
+    text-align: right;
 }
 
 
@@ -212,7 +213,7 @@ body{
 
 .services-table-box{
     padding: 2% 4%;
-    opacity: 0.75;
+    opacity: 0.6;
 }
 
 .services-table-box:hover{
@@ -312,5 +313,35 @@ body{
 .cta-footer-brown-box{
     background-color: #A66539;
     padding: 1% 5%;
+}
+
+
+.cta{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 7rem;
+    text-transform: uppercase;
+    padding: 8%;
+}
+
+.cta-contacts{
+    padding-bottom: 2%;
+}
+
+.cta-contacts p{
+    font-size: .9rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    
+}
+
+.cta-contacts-email-phone{
+    text-align: center;
+    
+}
+
+.cta-contacts-address{
+    text-align: right;
 }
 
