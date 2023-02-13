@@ -345,3 +345,146 @@ body{
     text-align: right;
 }
 
+
+
+@media only screen and (max-width: 1070px) 
+    {
+
+        /* HEADER TITLE */
+        .title-header-1{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 10rem;
+            text-transform: uppercase;
+            position: absolute;
+            top: 150px;
+        }
+        
+        .title-header-2{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 10rem;
+            text-transform: uppercase;
+            position: absolute;
+            top: 300px;
+        }
+
+
+        .header-sub-title{
+            text-transform: uppercase;
+            font-family: 'Sora', sans-serif;
+            font-size: 2rem;
+            
+        }
+     
+
+
+        /* BIG NUMBER AT BOTTOM */
+
+        .big-bottom-number{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 27rem;
+            text-transform: uppercase;
+        }
+
+        .big-bottom-number-subtitle{
+            text-transform: uppercase;
+            font-family: 'Sora', sans-serif;
+            font-size: 2.3rem;
+            text-align: center;
+            position: relative;
+            top: -100px;
+        }
+
+        .client-logo{
+            width: 70%;
+        }
+        
+}
+
+
+@media only screen and (max-width: 992px) 
+    {
+
+        /* HEADER TITLE */
+        .title-header-1{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 8rem;
+            text-transform: uppercase;
+            position:static;
+            text-align: left;
+        }
+        
+        .title-header-2{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 8rem;
+            text-transform: uppercase;
+            position:static;
+            text-align: left;
+        }
+
+        .big-textandimage-box{
+            padding: 0;
+        }
+
+
+        .sub-title{
+            text-align: right;
+        }
+
+        .header-sub-title{
+            text-align: center;
+        }
+
+        .header-image-subtitle-r{
+            display: none;
+        }
+
+        .services-header-sectionandbutton{
+            text-align: center;
+        }
+
+        .services-table{
+            text-align: center;
+        }
+
+        .services-table-box{
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        /* .header-sub-title{
+            text-transform: uppercase;
+            font-family: 'Sora', sans-serif;
+            font-size: 2rem;
+            
+        }
+     
+
+
+        /* BIG NUMBER AT BOTTOM */
+
+        /* .big-bottom-number{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 27rem;
+            text-transform: uppercase;
+        }
+
+        .big-bottom-number-subtitle{
+            text-transform: uppercase;
+            font-family: 'Sora', sans-serif;
+            font-size: 2.3rem;
+            text-align: center;
+            position: relative;
+            top: -100px;
+        }
+
+        .client-logo{
+            width: 70%;
+        }  */
+        
+}
