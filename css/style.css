@@ -591,11 +591,60 @@ body{
                 }
 
                 .cta-contacts p{
-                    font-size: .5rem;
+                    font-size: .7rem;
                 }
 
                 .cta-contacts-logo{
                     width: 25%;
                 }
 
+
+               
+
 }
+
+    @media only screen and (max-width: 500px) 
+{
+    .big-bottom-number{
+        font-size: 9.5rem;
+    }
+
+    .big-bottom-number-subtitle{
+        font-size: .8rem;
+        position: relative;
+        top: -40px;
+    }
+
+    .cta{
+        font-size: 4rem;
+    }
+
+    .works-image-subtitle{
+        font-size: 1.5rem;
+    }
+
+    .middle-section-main-header-text{
+        font-size: 2.2rem;
+    }
+
+    .middle-section-button{
+        font-size: .3rem;
+        /* top: -10px; */
+    }
+
+    .header-sub-title{
+        font-size: .9rem;
+    }
+
+    .services-table-box{
+        opacity: 0.75;
+    }
+
+    #client-logo-box{
+        opacity: .6;
+    }
+
+    .cta-contacts-logo{
+        width: 50%;
+    }
+} 
