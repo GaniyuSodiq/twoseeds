@@ -267,11 +267,12 @@ body{
     padding: 3% 0 3%;
 }
 
+.works-image-subtitle-date-box{
+    text-align: right;
+}
+
 .works-image-subtitle-date{
-    font-size: .8rem;
-    position: relative;
-    left: 78%;
-    top: 6%;
+    font-size: .8rem;   
 }
 
 
@@ -456,35 +457,145 @@ body{
             padding-bottom: 0;
         }
 
-        /* .header-sub-title{
-            text-transform: uppercase;
-            font-family: 'Sora', sans-serif;
-            font-size: 2rem;
+        .services-table-box .col-lg-4{
+            padding: 5px 0;
             
         }
-     
-
 
         /* BIG NUMBER AT BOTTOM */
 
-        /* .big-bottom-number{
-            font-family: 'Roboto', sans-serif;
-            font-weight: 900;
-            font-size: 27rem;
-            text-transform: uppercase;
+        .big-bottom-number{
+            font-size: 26rem;
         }
 
         .big-bottom-number-subtitle{
-            text-transform: uppercase;
-            font-family: 'Sora', sans-serif;
-            font-size: 2.3rem;
-            text-align: center;
-            position: relative;
-            top: -100px;
+            font-size: 2.1rem;
         }
 
-        .client-logo{
-            width: 70%;
-        }  */
+
+}
+
+@media only screen and (max-width: 850px) 
+    {
+
+        /* BIG NUMBER AT BOTTOM */
+
+        .big-bottom-number{
+            font-size: 22rem;
+        }
+
+        .big-bottom-number-subtitle{
+            font-size: 1.8rem;
+        }
+
+        .works-image-subtitle{
+            font-size: 1.8rem;
+        }
+
+        .middle-section-button-works{
+            font-size: .5rem;
+        }
+
+}
+
+@media only screen and (max-width: 768px) 
+    {
+
+        /* BIG NUMBER AT BOTTOM */
+
+        .big-bottom-number{
+            font-size: 20rem;
+        }
+
+        .big-bottom-number-subtitle{
+            font-size: 1.5rem;
+            position: relative;
+            top: -80px;
+        }
+
+        .works-image-subtitle{
+            font-size: 1.8rem;
+        }
+
+        .middle-section-button-works{
+            font-size: .5rem;
+        }
+
+}
+
+@media only screen and (max-width: 500px) 
+    {
+
+                /* HEADER TITLE */
+
+                .title-header-1{
+                    text-align: center;
+                    font-size: 5rem;
+                }
+                
+                .title-header-2{
+                    text-align: center;
+                    font-size: 5rem;
+                }
+
+                .sub-title{
+                    text-align: center;
+                    font-size: 1.3rem;
+                }
+
+                .header-sub-title{
+                    font-size: 1.2rem;
+                }
+
+                .middle-section-main-header-text{
+                    font-size: 2.5rem;
+                }
+
+                .middle-section-button{
+                    font-size: .5rem;
+                    top: -10px;
+                }
+
+
+                
+                .services-table-box h3{
+                    font-size: 2rem;
+                }
+                
+                
+                .services-table-box p{
+                    font-size: 1rem;
+                }
+
+                .first-work-table{
+                    padding-bottom: 13%;
+                }
+                
+                .big-bottom-number{
+                    font-size: 13rem;
+                }
         
+                .big-bottom-number-subtitle{
+                    font-size: 1rem;
+                    position: relative;
+                    top: -50px;
+                }
+
+                .client-logo {
+                    width: 80%;
+                    height: 60%;
+                }
+                
+                .cta{
+                    font-size: 5rem;
+                }
+
+                .cta-contacts p{
+                    font-size: .5rem;
+                }
+
+                .cta-contacts-logo{
+                    width: 25%;
+                }
+
 }
